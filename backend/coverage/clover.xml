@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1762924463283" clover="3.2.0">
+  <project timestamp="1762924463283" name="All files">
+    <metrics statements="161" coveredstatements="134" conditionals="94" coveredconditionals="65" methods="15" coveredmethods="13" elements="270" coveredelements="212" complexity="0" loc="161" ncloc="161" packages="4" files="6" classes="6"/>
+    <package name="controllers">
+      <metrics statements="129" coveredstatements="110" conditionals="82" coveredconditionals="59" methods="11" coveredmethods="11"/>
+      <file name="matchController.js" path="C:\Users\shaht\OneDrive\Desktop\placements\crickheros\backend\controllers\matchController.js">
+        <metrics statements="122" coveredstatements="104" conditionals="82" coveredconditionals="59" methods="10" coveredmethods="10"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1444" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="484" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="484" type="stmt"/>
+        <line num="8" count="484" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="484" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="484" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="480" type="stmt"/>
+        <line num="28" count="480" type="stmt"/>
+        <line num="30" count="480" type="cond" truecount="3" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="480" type="stmt"/>
+        <line num="35" count="480" type="stmt"/>
+        <line num="36" count="480" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="11" type="stmt"/>
+        <line num="42" count="220" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="55" type="stmt"/>
+        <line num="45" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="74" count="360" type="stmt"/>
+        <line num="75" count="360" type="stmt"/>
+        <line num="77" count="360" type="stmt"/>
+        <line num="84" count="360" type="cond" truecount="2" falsecount="0"/>
+        <line num="85" count="339" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="87" count="3" type="stmt"/>
+        <line num="89" count="339" type="stmt"/>
+        <line num="90" count="339" type="stmt"/>
+        <line num="94" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="113" count="3" type="stmt"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="127" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="139" count="1" type="stmt"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="143" count="1" type="stmt"/>
+        <line num="144" count="1" type="stmt"/>
+        <line num="145" count="1" type="stmt"/>
+        <line num="146" count="1" type="stmt"/>
+        <line num="149" count="1" type="stmt"/>
+        <line num="150" count="120" type="stmt"/>
+        <line num="151" count="120" type="stmt"/>
+        <line num="153" count="120" type="stmt"/>
+        <line num="160" count="120" type="cond" truecount="2" falsecount="0"/>
+        <line num="161" count="115" type="cond" truecount="2" falsecount="0"/>
+        <line num="162" count="1" type="stmt"/>
+        <line num="163" count="1" type="stmt"/>
+        <line num="165" count="115" type="stmt"/>
+        <line num="166" count="115" type="stmt"/>
+        <line num="170" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="172" count="0" type="stmt"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="189" count="1" type="stmt"/>
+        <line num="200" count="1" type="stmt"/>
+        <line num="201" count="9" type="stmt"/>
+        <line num="202" count="9" type="stmt"/>
+        <line num="205" count="9" type="cond" truecount="8" falsecount="0"/>
+        <line num="206" count="1" type="stmt"/>
+        <line num="207" count="1" type="stmt"/>
+        <line num="208" count="1" type="stmt"/>
+        <line num="212" count="8" type="stmt"/>
+        <line num="215" count="47" type="stmt"/>
+        <line num="216" count="39" type="stmt"/>
+        <line num="218" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="219" count="1" type="stmt"/>
+        <line num="220" count="1" type="stmt"/>
+        <line num="221" count="1" type="stmt"/>
+        <line num="224" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="225" count="0" type="stmt"/>
+        <line num="226" count="0" type="stmt"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="231" count="7" type="stmt"/>
+        <line num="232" count="7" type="stmt"/>
+        <line num="235" count="7" type="stmt"/>
+        <line num="239" count="7" type="stmt"/>
+        <line num="240" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="244" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="245" count="3" type="stmt"/>
+        <line num="275" count="4" type="stmt"/>
+        <line num="291" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="292" count="3" type="stmt"/>
+        <line num="300" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="301" count="0" type="stmt"/>
+        <line num="302" count="0" type="stmt"/>
+        <line num="303" count="0" type="stmt"/>
+        <line num="306" count="3" type="stmt"/>
+        <line num="324" count="1" type="stmt"/>
+        <line num="332" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="333" count="0" type="stmt"/>
+        <line num="334" count="0" type="stmt"/>
+        <line num="335" count="0" type="stmt"/>
+        <line num="338" count="1" type="stmt"/>
+        <line num="357" count="4" type="stmt"/>
+        <line num="364" count="2" type="stmt"/>
+        <line num="368" count="1" type="stmt"/>
+      </file>
+      <file name="pointsTableController.js" path="C:\Users\shaht\OneDrive\Desktop\placements\crickheros\backend\controllers\pointsTableController.js">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="middleware">
+      <metrics statements="15" coveredstatements="9" conditionals="12" coveredconditionals="6" methods="2" coveredmethods="1"/>
+      <file name="errorHandler.js" path="C:\Users\shaht\OneDrive\Desktop\placements\crickheros\backend\middleware\errorHandler.js">
+        <metrics statements="15" coveredstatements="9" conditionals="12" coveredconditionals="6" methods="2" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="models">
+      <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="pointstable.js" path="C:\Users\shaht\OneDrive\Desktop\placements\crickheros\backend\models\pointstable.js">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="134" count="2" type="stmt"/>
+        <line num="135" count="10" type="stmt"/>
+        <line num="138" count="2" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="145" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="routes">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="matchRoutes.js" path="C:\Users\shaht\OneDrive\Desktop\placements\crickheros\backend\routes\matchRoutes.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="pointsTableRoutes.js" path="C:\Users\shaht\OneDrive\Desktop\placements\crickheros\backend\routes\pointsTableRoutes.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
