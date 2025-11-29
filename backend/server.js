@@ -3,6 +3,14 @@ const cors = require('cors')
 const app = express()
 const PORT =  5000
 // Middleware
+
+app.use((req, res, next) => {
+  if (req.method === 'POST') {
+    console.log(`\n📨 Incoming ${req.method} request to ${req.path}`);
+    console.log('Request Body:', req.body);
+  }
+  next();
+});
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
