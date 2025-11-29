@@ -7,7 +7,7 @@
 ## Installation Steps
 
 ### 1. Extract the ZIP file
-Extract `crickheros-submission.zip` to your desired location
+Extract  to your desired location
 
 ### 2. Install Backend Dependencies
 ```bash
